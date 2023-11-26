@@ -10,7 +10,7 @@ Clone this git repository into your theme folder and add it as a submodule of yo
 git submodule add https://github.com/Lruihao/hugo-shortcode-sponsor-log.git themes/shortcode-sponsor-log
 ```
 
-Next edit `config.toml` of your project and add this theme component to your themes:
+Next edit `hugo.toml` of your project and add this theme component to your themes:
 
 ```bash
 theme = ["your-main-theme", "shortcode-sponsor-log"]
